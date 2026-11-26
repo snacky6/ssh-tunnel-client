@@ -1,0 +1,23 @@
+{
+  "name": "ssh-tunnel-client",
+  "version": "1.0.0",
+  "description": "Forwards a local port through an SSH tunnel server to reach a service on a distant machine",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "ssh-tunnel": "index.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "ssh2": "^1.16.0"
+  },
+  "author": "Valentin Guillois",
+  "license":"UNLICENSED"
+}
